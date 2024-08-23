@@ -23,7 +23,7 @@ license {
     name: "external_roboto-flex-fonts_license",
     visibility: [":__subpackages__"],
     license_kinds: [
-        "SPDX-license-identifier-OFL",  // by exception only
+        "SPDX-license-identifier-OFL", // by exception only
     ],
     license_text: [
         "LICENSE",
@@ -33,4 +33,12 @@ license {
 prebuilt_font {
     name: "RobotoFlex-Regular.ttf",
     src: "RobotoFlex-Regular.ttf",
+}
+
+filegroup {
+    name: "RobotoFlex",
+    srcs: ["font_config.json"],
+    required: [
+        "RobotoFlex-Regular.ttf",
+    ],
 }
