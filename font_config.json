@@ -1,0 +1,14 @@
+[
+    {
+        "name": "roboto-flex",
+        "fonts": [
+            {
+                "file": "RobotoFlex-Regular.ttf",
+                "supportedAxes": "wght",
+                "axes": {
+                    "wdth": "100"
+                }
+            }
+        ]
+    }
+]
